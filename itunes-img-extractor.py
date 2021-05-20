@@ -21,8 +21,8 @@ from shutil import copyfile
 # Location to the Manifest db file and the iPhone backup dir
 # The backupdir is normally a directory with a hash as a name
 #
-manifestDB = "/home/trhodes/tirabkup/Manifest.db"
-backupbasedir = "tirabkup/"
+manifestDB = "/home/trhodes/356b05ad11e0f7c9b9dfa6d762ea647138c74465/Manifest.db"
+backupbasedir = "356b05ad11e0f7c9b9dfa6d762ea647138c74465/"
 
 try:
 	conn = sqlite3.connect(manifestDB)
